@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HENSA Homepage Options</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4F4F2;--card:#fff;--ink:#16181B;--muted:#5F656C;--line:#E2E2DE}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 "Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:56px 20px 80px}
+h1{margin:0;font-size:clamp(32px,4vw,48px);letter-spacing:-.03em;line-height:1.1}
+.lead{margin:12px 0 0;color:var(--muted);max-width:62ch}
+.note{margin-top:20px;display:inline-block;font-size:14px;padding:8px 12px;border-radius:8px;background:#FFF4D6;color:#5C4300}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:40px}
+a.card{display:flex;flex-direction:column;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;transition:transform .15s ease-out,box-shadow .15s ease-out}
+a.card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
+.sw{height:120px;display:flex;align-items:flex-end;padding:16px;font:800 28px/1 system-ui,sans-serif;letter-spacing:.02em}
+.body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:6px}
+.body b{font-size:19px}
+.body span{color:var(--muted);font-size:15px}
+.body em{font-style:normal;font-size:13px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>HENSA Trucks — homepage options</h1>
+  <p class="lead">Five design directions for the same business, the same facts and the same copy rules. Open each one on your phone too. Pick one, or mix elements (e.g. "option 3 layout with option 2 colors").</p>
+  <p class="note">Drafts: orange/yellow dashed tags mark missing photos and facts to confirm with the owner. Links to inner pages are not built yet.</p>
+  <div class="grid">
+    <a class="card" href="../index.html"><div class="sw" style="background:#0E0F11;color:#F2A30F">DOOR 01 / 02</div><div class="body"><em>Version 1</em><b>Two Doors</b><span>Dark, industrial. First screen asks one question: damaged truck or job?</span></div></a>
+    <a class="card" href="option-1-service-manual/index.html"><div class="sw" style="background:#F3F1EC;color:#1A1C1E;background-image:linear-gradient(rgba(26,28,30,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(26,28,30,.06) 1px,transparent 1px);background-size:16px 16px">§ 01 SPEC</div><div class="body"><em>Option 1</em><b>Service Manual</b><span>Light, technical, precise. Looks like an OEM repair manual, with a "repair order" checklist in the hero.</span></div></a>
+    <a class="card" href="option-2-showroom/index.html"><div class="sw" style="background:radial-gradient(ellipse at 60% 30%,#2A2620,#0B0B0C);color:#D4AE6A">SHOWROOM</div><div class="body"><em>Option 2</em><b>Showroom</b><span>Cinematic and premium. Full-screen photo hero, big service rows, before/after slider.</span></div></a>
+    <a class="card" href="option-3-fleet-desk/index.html"><div class="sw" style="background:#0F1E33;color:#FFC629">FLEET DESK</div><div class="body"><em>Option 3</em><b>Fleet Desk</b><span>Clean B2B. Hero tabs for owner-operators, fleets and insurance adjusters.</span></div></a>
+    <a class="card" href="option-4-estimate-first/index.html"><div class="sw" style="background:#141619;color:#E03131">START HERE</div><div class="body"><em>Option 4</em><b>Estimate First</b><span>Conversion-led. Tap the damaged areas on a truck diagram to start an estimate. Short page.</span></div></a>
+  </div>
+</div>
+</body>
+</html>

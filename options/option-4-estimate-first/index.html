@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Heavy-Duty Truck Collision &amp; Body Repair, Naperville IL | HENSA</title>
+<meta name="description" content="Collision, cab replacement and paint for Freightliner, Volvo, Kenworth, Peterbilt, Mack and other heavy-duty trucks. Naperville, IL. (253) 523-0022.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#141619">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23E03131'/%3E%3Cpath d='M16 14h8v14h16V14h8v36h-8V36H24v14h-8z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#141619; --bg-2:#1B1E22; --panel:#22262B; --panel-2:#2A2F35; --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.18);
+  --fg:#F2F3F4; --muted:#A4AAB1; --dim:#737A82;
+  --red:#E03131; --red-hi:#F03E3E; --light:#F4F4F2; --ink:#16181B; --ink-2:#4A5059;
+  --cond:"Barlow Condensed","Arial Narrow",sans-serif; --body:"Barlow",system-ui,sans-serif;
+  --wrap:1200px; --gut:clamp(16px,4vw,32px); --sec:clamp(64px,8vw,104px);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.55 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{margin:0;font-family:var(--cond);font-weight:800;line-height:.98;text-transform:uppercase;letter-spacing:-.005em}
+p{margin:0} ul,ol{margin:0;padding:0;list-style:none} a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid #FFD43B;outline-offset:2px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.tag{font:700 14px/1.2 var(--cond);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.ph{display:inline-block;font:500 13px/1.4 var(--body);color:#FFA8A8;border:1px dashed rgba(224,49,49,.6);background:rgba(224,49,49,.08);padding:3px 8px;border-radius:4px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 26px;border-radius:6px;font:700 19px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;border:2px solid var(--line-2);color:var(--fg);background:transparent;cursor:pointer;transition:background .15s ease-out,border-color .15s ease-out}
+.btn:hover{border-color:var(--fg)}
+.btn-red{background:var(--red);border-color:var(--red);color:#fff}
+.btn-red:hover{background:var(--red-hi);border-color:var(--red-hi)}
+
+/* header */
+.top{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-right:auto}
+.logo i{width:34px;height:34px;border-radius:6px;background:var(--red);display:flex;align-items:center;justify-content:center;font:800 22px/1 var(--cond);font-style:normal}
+.logo b{font:800 24px/1 var(--cond);letter-spacing:.06em}
+.nav{display:flex;gap:2px}
+.nav a{font:600 17px/1 var(--cond);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;color:var(--muted);padding:10px 10px}
+.nav a:hover{color:var(--fg)}
+.lang{display:flex;gap:2px;font:700 14px/1 var(--cond);letter-spacing:.08em}
+.lang a{text-decoration:none;color:var(--dim);padding:8px 6px}.lang a[aria-current]{color:var(--fg)}
+.top .tel{font:700 19px/1 var(--cond);letter-spacing:.04em;text-decoration:none;white-space:nowrap}
+.top .tel span{color:var(--red)}
+.est-head .tag{white-space:nowrap}
+.menu{display:none}
+.menu summary{list-style:none;cursor:pointer;font:700 16px/1 var(--cond);letter-spacing:.08em;text-transform:uppercase;padding:12px 14px;border:2px solid var(--line-2);border-radius:6px}
+.menu summary::-webkit-details-marker{display:none}
+.menu-panel{display:none}
+.menu[open] .menu-panel{display:block;position:fixed;left:0;right:0;top:64px;bottom:0;background:var(--bg);padding:12px var(--gut) 120px;overflow:auto;border-top:1px solid var(--line)}
+.menu-panel a{display:block;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;font:800 30px/1 var(--cond);text-transform:uppercase}
+.menu-panel .lang{margin-top:18px}.menu-panel .lang a{font-size:18px;padding:10px 14px 10px 0;border:0;display:inline-block}
+
+/* hero estimator */
+.hero{padding:clamp(28px,4vw,56px) 0 var(--sec)}
+.hero-grid{display:grid;grid-template-columns:.9fr 1.3fr;gap:clamp(28px,4vw,56px);align-items:start}
+.hero h1{font-size:clamp(52px,6.2vw,88px)}
+.hero h1 span{color:var(--red)}
+.hero-sub{margin-top:18px;color:var(--muted);font-size:clamp(18px,1.5vw,20px);max-width:38ch}
+.facts{margin-top:28px;display:grid;gap:0;border-top:1px solid var(--line)}
+.facts li{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px;color:#D3D6DA}
+.facts li::before{content:"";width:10px;height:10px;margin-top:8px;background:var(--red);transform:rotate(45deg)}
+.alt{margin-top:24px;font-size:16px;color:var(--muted)}
+.alt a{font:700 22px/1 var(--cond);letter-spacing:.04em;color:var(--fg);text-decoration:none;display:inline-block;margin-top:6px}
+
+.est{background:var(--bg-2);border:1px solid var(--line-2);border-radius:12px;overflow:hidden}
+.est-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 22px;border-bottom:1px solid var(--line);background:var(--panel)}
+.est-head h2{font-size:26px;letter-spacing:.02em}
+.est-head .tag{color:var(--red)}
+.est-step{padding:20px 22px;border-bottom:1px solid var(--line)}
+.est-step:last-of-type{border-bottom:0}
+.q{display:flex;align-items:baseline;gap:10px;font:700 21px/1.1 var(--cond);letter-spacing:.04em;text-transform:uppercase;margin-bottom:14px}
+.q b{color:var(--red);font-size:15px}
+.q small{margin-left:auto;font:500 14px/1 var(--body);letter-spacing:0;text-transform:none;color:var(--dim)}
+.truck{width:100%;height:auto;display:block;margin:0 0 14px}
+.truck .z{fill:#2E3339;stroke:#59616B;stroke-width:2;cursor:pointer;transition:fill .15s ease-out}
+.truck .z:hover{fill:#3A4048}
+.truck .z.on{fill:var(--red);stroke:#FF8787}
+.truck .deco{fill:none;stroke:#59616B;stroke-width:2}
+.truck .wheel{fill:#0E0F11;stroke:#59616B;stroke-width:3}
+.truck .hub{fill:#3A4048}
+.truck .glass{fill:#1B1E22;stroke:#59616B;stroke-width:2;pointer-events:none}
+.truck text{font:700 15px/1 var(--cond);letter-spacing:.08em;fill:var(--dim);text-transform:uppercase;pointer-events:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{appearance:none;border:1.5px solid var(--line-2);background:var(--panel);border-radius:999px;padding:10px 16px;min-height:44px;font:600 16px/1 var(--body);cursor:pointer;transition:background .15s ease-out,border-color .15s ease-out}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.seg label{position:relative}
+.seg input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.seg span{display:flex;align-items:center;justify-content:center;min-height:48px;border:1.5px solid var(--line-2);border-radius:8px;background:var(--panel);font:600 16px/1.1 var(--body);text-align:center;padding:6px}
+.seg input:checked + span{background:var(--fg);color:var(--ink);border-color:var(--fg)}
+.seg input:focus-visible + span{outline:3px solid #FFD43B;outline-offset:2px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.est-go{padding:20px 22px;background:var(--panel);display:grid;gap:14px}
+.est-go .btn{width:100%;min-height:58px;font-size:22px}
+.fee{display:flex;gap:12px;align-items:flex-start;font-size:15px;color:#D3D6DA}
+.fee b{font:800 24px/1 var(--cond);color:var(--fg)}
+.sum{font-size:15px;color:var(--muted);min-height:1.5em}
+
+/* bands */
+.light{background:var(--light);color:var(--ink)}
+.sec{padding:var(--sec) 0}
+.sec-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:clamp(28px,4vw,44px)}
+.sec-head h2{font-size:clamp(40px,5vw,72px)}
+.light .tag{color:var(--ink-2)}
+.next{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:3px solid var(--ink)}
+.next li{padding:22px 20px 6px 0}
+.next li+li{padding-left:20px;border-left:1px solid rgba(22,24,27,.15)}
+.next .n{font:800 56px/1 var(--cond);color:var(--red)}
+.next h3{font-size:28px;margin:8px 0}
+.next p{color:var(--ink-2);font-size:17px}
+.next strong{color:var(--ink)}
+.terms{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:40px}
+.terms div{background:#fff;border:1px solid rgba(22,24,27,.12);border-radius:10px;padding:20px 22px}
+.terms h3{font-size:22px;margin-bottom:6px}
+.terms p{font-size:16px;color:var(--ink-2)}
+.light .ph{color:#A61E1E;background:rgba(224,49,49,.06)}
+
+.svc{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.svc li{background:var(--bg-2);border:1px solid var(--line);border-radius:10px;padding:22px 20px;display:flex;flex-direction:column;gap:8px;min-height:150px}
+.svc h3{font-size:26px}
+.svc p{color:var(--muted);font-size:16px}
+.svc li.big{grid-column:span 2;background:var(--red);border-color:var(--red)}
+.svc li.big p{color:rgba(255,255,255,.88)}
+.makes{margin-top:24px;font:700 18px/1.4 var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+.makes b{color:var(--muted)}
+.excl{margin-top:10px;font-size:15px;color:var(--dim)}
+
+.visit{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}
+.drop{background:var(--red);color:#fff;border-radius:12px;padding:clamp(24px,3vw,40px);display:flex;flex-direction:column;gap:14px}
+.drop h2{font-size:clamp(38px,4.4vw,64px)}
+.drop p{font-size:18px;color:rgba(255,255,255,.92)}
+.drop .btn{align-self:flex-start;background:#fff;border-color:#fff;color:var(--red);margin-top:8px}
+.info{background:var(--bg-2);border:1px solid var(--line);border-radius:12px;padding:8px 24px}
+.info div{display:grid;grid-template-columns:100px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line);font-size:17px}
+.info div:last-child{border-bottom:0}
+.info dt{font:700 14px/1.6 var(--cond);letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.info dd{margin:0}.info a{text-decoration:none}.info a:hover{color:#FF8787}
+
+.careers{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg-2)}
+.careers .wrap{display:grid;grid-template-columns:1fr auto;gap:20px 40px;align-items:center;padding-top:40px;padding-bottom:40px}
+.careers h2{font-size:clamp(32px,3.6vw,48px)}
+.careers p{color:var(--muted);margin-top:8px}
+.careers .ph{margin-top:10px}
+
+.foot{padding:40px 0 calc(28px + env(safe-area-inset-bottom));font-size:15px;color:var(--muted)}
+.foot-row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px 32px;align-items:flex-start}
+.foot nav{display:flex;flex-wrap:wrap;gap:8px 20px}
+.foot a{text-decoration:none}.foot a:hover{color:var(--fg)}
+.foot-bottom{margin-top:28px;padding-top:18px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:13px;color:var(--dim)}
+.mbar{display:none}
+.top .menu-panel .lang{display:flex!important}
+
+@media (max-width:1080px){.nav{display:none}.menu{display:block}}
+@media (max-width:900px){
+  .hero-grid,.visit{grid-template-columns:1fr}
+  .hero-copy{order:0}
+  .next{grid-template-columns:1fr 1fr}.next li:nth-child(3){padding-left:0;border-left:0}.next li:nth-child(n+3){border-top:1px solid rgba(22,24,27,.15);margin-top:12px}
+  .svc{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{padding-bottom:calc(66px + env(safe-area-inset-bottom))}
+  .top .lang{display:none}
+  .top .tel{font-size:0}.top .tel span{font-size:22px}
+  .q small{display:none}
+  .est-go .btn{font-size:19px;white-space:nowrap;padding:12px}
+  .facts,.alt{display:none}
+  .hero h1{font-size:15vw}
+  .hero-sub{margin-top:10px;font-size:17px}
+  .est-step,.est-go{padding:16px}
+  .est-head{padding:14px 16px}
+  .two{grid-template-columns:1fr}
+  .next{grid-template-columns:1fr}.next li,.next li+li{padding:18px 0 6px;border-left:0;border-top:1px solid rgba(22,24,27,.15);margin-top:0}.next li:first-child{border-top:0}
+  .terms{grid-template-columns:1fr}
+  .svc{grid-template-columns:1fr}.svc li.big{grid-column:auto}
+  .info div{grid-template-columns:1fr;gap:2px}
+  .careers .wrap{grid-template-columns:1fr}
+  .mbar{display:grid;grid-template-columns:1fr 1.4fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:rgba(20,22,25,.96);border-top:1px solid var(--line)}
+  .mbar .btn{min-height:50px;padding:10px;font-size:18px}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#"><i>H</i><b>HENSA</b></a>
+    <nav class="nav" aria-label="Main"><a href="/collision-body-repair">Services</a><a href="/insurance-claims">Insurance</a><a href="/fleets">Fleets</a><a href="/projects">Projects</a><a href="/careers">Careers</a><a href="/contact">Contact</a></nav>
+    <div class="lang"><a href="/" aria-current="true">EN</a><a href="/ru/" lang="ru">RU</a><a href="/lt/" lang="lt">LT</a></div>
+    <a class="tel" href="tel:+12535230022" aria-label="Call (253) 523-0022"><span>☎</span> (253) 523-0022</a>
+    <details class="menu"><summary>Menu</summary>
+      <nav class="menu-panel" aria-label="Mobile"><a href="/collision-body-repair">Collision &amp; body</a><a href="/cab-replacement">Cab replacement</a><a href="/paint">Paint &amp; color</a><a href="/insurance-claims">Insurance</a><a href="/fleets">Fleets</a><a href="/projects">Projects</a><a href="/careers">Careers</a><a href="/contact">Contact</a>
+        <div class="lang"><a href="/" aria-current="true">English</a><a href="/ru/" lang="ru">Русский</a><a href="/lt/" lang="lt">Lietuvių</a></div></nav>
+    </details>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="tag" style="color:var(--red);margin-bottom:14px">Heavy-duty truck collision &amp; body repair · Naperville, IL</p>
+      <h1>Damaged truck?<br><span>Start here.</span></h1>
+      <p class="hero-sub">Tell us what's damaged in three taps. Then send photos and we'll take it from there.</p>
+      <ul class="facts">
+        <li>Freightliner, Volvo, Kenworth, Peterbilt, Mack and other heavy-duty makes</li>
+        <li>We work with all insurance companies and independent adjusters</li>
+        <li>English, Russian and Lithuanian spoken in the shop</li>
+      </ul>
+      <p class="alt">Rather talk to someone?<br><a href="tel:+12535230022">(253) 523-0022</a></p>
+    </div>
+
+    <form class="est" id="est" action="/estimate" method="get" aria-labelledby="est-title">
+      <div class="est-head"><h2 id="est-title">Quick estimate start</h2><span class="tag">3 questions</span></div>
+
+      <div class="est-step">
+        <p class="q"><b>01</b>Where's the damage? <small>Tap all that apply</small></p>
+        <svg class="truck" viewBox="0 0 640 280" role="img" aria-label="Truck cab diagram — damaged areas are highlighted in red">
+          <!-- chassis -->
+          <path class="deco" d="M60 214 H600 M470 196 H600 V214"/>
+          <rect class="deco" x="300" y="200" width="90" height="24" rx="10"/>
+          <!-- zones -->
+          <path class="z" data-zone="cab-panels" d="M300 70 H468 V200 H300 Z"/>
+          <path class="z" data-zone="cab-roof" d="M262 70 L276 34 Q280 28 290 28 H462 Q468 28 468 34 V70 Z"/>
+          <path class="z" data-zone="cab-corner" d="M240 200 V122 L262 70 H300 V200 Z"/>
+          <path class="z" data-zone="hood" d="M72 196 L78 150 Q80 140 92 138 L240 122 V196 Z"/>
+          <path class="z" data-zone="bumper" d="M34 170 H74 V214 H34 Q28 214 28 208 V176 Q28 170 34 170 Z"/>
+          <!-- decoration -->
+          <path class="glass" d="M266 80 L248 122 H292 V80 Z"/>
+          <rect class="glass" x="312" y="82" width="64" height="44" rx="4"/>
+          <path class="deco" d="M384 82 V196 M312 150 H376" style="pointer-events:none"/>
+          <circle class="wheel" cx="150" cy="226" r="34"/><circle class="hub" cx="150" cy="226" r="12"/>
+          <circle class="wheel" cx="500" cy="226" r="34"/><circle class="hub" cx="500" cy="226" r="12"/>
+          <circle class="wheel" cx="572" cy="226" r="34"/><circle class="hub" cx="572" cy="226" r="12"/>
+          <text x="22" y="256">Bumper</text><text x="120" y="176">Hood</text><text x="248" y="190">Corner</text><text x="398" y="118">Cab</text><text x="350" y="56">Roof</text>
+        </svg>
+        <div class="chips" role="group" aria-label="Damaged areas">
+          <button type="button" class="chip" data-zone="bumper" aria-pressed="false">Bumper</button>
+          <button type="button" class="chip" data-zone="hood" aria-pressed="false">Hood</button>
+          <button type="button" class="chip" data-zone="cab-corner" aria-pressed="false">Cab corner</button>
+          <button type="button" class="chip" data-zone="cab-panels" aria-pressed="false">Cab panels</button>
+          <button type="button" class="chip" data-zone="cab-roof" aria-pressed="false">Cab roof</button>
+          <button type="button" class="chip" data-zone="full-cab" aria-pressed="false">Whole cab</button>
+          <button type="button" class="chip" data-zone="paint" aria-pressed="false">Paint only</button>
+        </div>
+        <input type="hidden" name="damage" id="damage" value="">
+      </div>
+
+      <div class="est-step two">
+        <fieldset style="border:0;margin:0;padding:0;min-width:0">
+          <legend class="q" style="padding:0"><b>02</b>Is it drivable?</legend>
+          <div class="seg">
+            <label><input type="radio" name="drivable" value="yes"><span>Yes</span></label>
+            <label><input type="radio" name="drivable" value="no"><span>No</span></label>
+            <label><input type="radio" name="drivable" value="unsure" checked><span>Not sure</span></label>
+          </div>
+        </fieldset>
+        <fieldset style="border:0;margin:0;padding:0;min-width:0">
+          <legend class="q" style="padding:0"><b>03</b>Your language</legend>
+          <div class="seg">
+            <label><input type="radio" name="lang" value="en" checked><span>English</span></label>
+            <label><input type="radio" name="lang" value="ru"><span lang="ru">Русский</span></label>
+            <label><input type="radio" name="lang" value="lt"><span lang="lt">Lietuvių</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="est-go">
+        <p class="sum" id="sum" aria-live="polite">Select the damaged areas above.</p>
+        <button class="btn btn-red" type="submit">Continue — Add Photos →</button>
+        <p class="fee"><b>$350</b><span>Written estimate fee, credited toward the repair if we do the work. Next step: photos of all angles and the VIN plate.</span></p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="sec light">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="tag" style="margin-bottom:10px">What happens next</p><h2>From damage to done</h2></div></div>
+    <ol class="next">
+      <li><span class="n">01</span><h3>Send photos</h3><p>All sides of the damage, plus the VIN plate.</p></li>
+      <li><span class="n">02</span><h3>Written estimate</h3><p>The estimate costs <strong>$350</strong>, credited toward the repair if we do the work.</p></li>
+      <li><span class="n">03</span><h3>Parts &amp; schedule</h3><p>Work starts once all required parts are received, on a schedule agreed with you.</p></li>
+      <li><span class="n">04</span><h3>Repair &amp; pick-up</h3><p>Your truck is repaired and ready to get back on the road.</p></li>
+    </ol>
+    <div class="terms">
+      <div><h3>Insurance</h3><p>We work with all insurance companies and independent adjusters. You choose which shop repairs your truck. We provide photo documentation, itemized estimates and supplements.</p></div>
+      <div><h3>Payment</h3><p>Large repairs require insurance proceeds or an agreed advance payment for parts and work, agreed for each project. Customer-supplied parts are not accepted.</p></div>
+    </div>
+    <p style="margin-top:16px"><span class="ph">[CONFIRM WITH OWNER: $350 wording must match the written estimate — 815 ILCS 308]</span></p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="tag" style="margin-bottom:10px">What we repair</p><h2>Body &amp; collision. Nothing else.</h2></div><a class="btn" href="/collision-body-repair">All services →</a></div>
+    <ul class="svc">
+      <li class="big"><h3>Complete cab replacement</h3><p>Including the transfer of your interior into the new cab.</p></li>
+      <li><h3>Collision repair</h3><p>Heavy-duty truck collision damage, assessed and repaired.</p></li>
+      <li><h3>Cab panels &amp; roofs</h3><p>Panels, corners and roofs — repaired or replaced.</p></li>
+      <li><h3>Hoods &amp; bumpers</h3><p>Including fiberglass hoods.</p></li>
+      <li><h3>Body straightening</h3><p>Structural body repair.</p></li>
+      <li><h3>Paint &amp; color match</h3><p>From a single panel to a full truck repaint.</p></li>
+      <li><h3>Fleets</h3><p>One point of contact and long-term partnerships. <span class="ph">[CONFIRM WITH OWNER: fleet contact]</span></p></li>
+    </ul>
+    <p class="makes"><b>Makes:</b> Freightliner · Volvo · Kenworth · Peterbilt · Mack · other heavy-duty</p>
+    <p class="excl">No mechanical repair, towing, DOT inspections, welding or frame straightening. No trailers or box trucks.</p>
+    <p style="margin-top:20px"><span class="ph">[PHOTO NEEDED: 3–4 before/after pairs could sit here as a strip]</span></p>
+  </div>
+</section>
+
+<section class="sec" style="padding-top:0" id="visit">
+  <div class="wrap visit">
+    <div class="drop">
+      <p class="tag" style="color:rgba(255,255,255,.8)">Drop-off</p>
+      <h2>Call 2 hours before you arrive.</h2>
+      <p>So we can coordinate truck drop-off and parking at 24W959 Ramm Dr, Naperville.</p>
+      <a class="btn" href="tel:+12535230022">Call (253) 523-0022</a>
+      <span class="ph" style="align-self:flex-start;color:#fff;border-color:rgba(255,255,255,.6);background:rgba(255,255,255,.1)">[CONFIRM WITH OWNER: truck entrance / access notes]</span>
+    </div>
+    <dl class="info">
+      <div><dt>Address</dt><dd>24W959 Ramm Dr, Naperville, IL 60564<br><a href="https://www.google.com/maps/search/?api=1&amp;query=24W959+Ramm+Dr+Naperville+IL+60564" target="_blank" rel="noopener" style="color:#FF8787">Open in Google Maps ↗</a></dd></div>
+      <div><dt>Hours</dt><dd>Mon–Fri 8:00 AM – 6:00 PM<br>Sat 8:00 AM – 2:00 PM · Sun closed</dd></div>
+      <div><dt>Phone</dt><dd><a href="tel:+12535230022">(253) 523-0022</a></dd></div>
+      <div><dt>Email</dt><dd><a href="mailto:hensatrucks@gmail.com">hensatrucks@gmail.com</a></dd></div>
+      <div><dt>Languages</dt><dd>English · Russian · Lithuanian</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="careers" id="careers">
+  <div class="wrap">
+    <div>
+      <h2>Not here about a truck? We're hiring.</h2>
+      <p>Mechanics and truck body repair technicians. Training provided. Competitive pay based on experience.</p>
+      <span class="ph">[CONFIRM WITH OWNER: training for beginners? what do "mechanics" do here?]</span>
+    </div>
+    <a class="btn" href="/careers">See Open Positions →</a>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-row">
+      <div><a class="logo" href="#"><i>H</i><b>HENSA</b></a><p style="margin-top:10px">Quality. Precision. Reliability.</p></div>
+      <nav aria-label="Footer"><a href="/collision-body-repair">Collision &amp; body</a><a href="/cab-replacement">Cab replacement</a><a href="/paint">Paint</a><a href="/insurance-claims">Insurance</a><a href="/fleets">Fleets</a><a href="/projects">Projects</a><a href="/about">About</a><a href="/careers">Careers</a><a href="/contact">Contact</a><a href="https://www.facebook.com/hensa.trucksbody.repairshop" target="_blank" rel="noopener">Facebook</a></nav>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Hensa Trucks &amp; Body Repair Corp. · 24W959 Ramm Dr, Naperville, IL 60564</span><span><a href="/privacy">Privacy</a> · EN | <a href="/ru/">RU</a> | <a href="/lt/">LT</a></span></div>
+  </div>
+</footer>
+
+<div class="mbar"><a class="btn" href="tel:+12535230022">Call</a><a class="btn btn-red" href="#est">Start Estimate</a></div>
+
+<script>
+(function(){
+  var sel=new Set(), cab=['cab-corner','cab-panels','cab-roof'];
+  var names={bumper:'bumper',hood:'hood','cab-corner':'cab corner','cab-panels':'cab panels','cab-roof':'cab roof','full-cab':'whole cab',paint:'paint only'};
+  var chips=[].slice.call(document.querySelectorAll('.chip')), zones=[].slice.call(document.querySelectorAll('.truck .z'));
+  var out=document.getElementById('damage'), sum=document.getElementById('sum');
+  function render(){
+    chips.forEach(function(c){c.setAttribute('aria-pressed',sel.has(c.dataset.zone)?'true':'false')});
+    zones.forEach(function(z){var on=sel.has(z.dataset.zone)||(sel.has('full-cab')&&cab.indexOf(z.dataset.zone)>-1);z.classList.toggle('on',on)});
+    var list=[];sel.forEach(function(k){list.push(names[k])});
+    out.value=Array.from(sel).join(',');
+    sum.textContent=list.length?('Selected: '+list.join(', ')+'.'):'Select the damaged areas above.';
+  }
+  function toggle(k){
+    if(sel.has(k)){sel.delete(k)}else{
+      sel.add(k);
+      if(k==='full-cab'){cab.forEach(function(c){sel.delete(c)})}
+      if(cab.indexOf(k)>-1){sel.delete('full-cab')}
+    }
+    render();
+  }
+  chips.forEach(function(c){c.addEventListener('click',function(){toggle(c.dataset.zone)})});
+  zones.forEach(function(z){z.addEventListener('click',function(){toggle(z.dataset.zone)})});
+  render();
+})();
+</script>
+</body>
+</html>
